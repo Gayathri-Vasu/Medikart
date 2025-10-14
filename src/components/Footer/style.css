@@ -1,0 +1,144 @@
+footer {
+  background-color: #0f3460;
+  padding: 80px 0;
+  color: #fff;
+}
+
+footer .box {
+  padding: 0 20px;
+}
+
+footer h1 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 800;
+  width: max-content;
+}
+
+footer .logo {
+  color: white;
+  display:flex;
+  align-items:center;
+  gap:5px;
+  margin-bottom: 20px;
+}
+footer h2 {
+  font-size: 20px;
+}
+
+footer .row {
+  justify-content: center;
+}
+
+footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+.profile-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-left,
+.form-right {
+  width: 48%;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.profile-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.profile-btn:hover {
+  background: #218838;
+}
+
+.user-details {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.user-details p {
+  margin: 5px 0;
+}
+
+.reminder-section {
+  margin-top: 20px;
+  padding: 10px;
+  background: #eef;
+  border-radius: 10px;
+}
+
+.reminder-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.reminder-list {
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.back-btn {
+  margin-top: 10px;
+  background: #dc3545;
+}
+
+.back-btn:hover {
+  background: #a71d2a;
+}
+
+.cart-total{
+    backgroundColor: white;
+    padding: 20px;
+    borderRadius: 10px;
+    boxShadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
